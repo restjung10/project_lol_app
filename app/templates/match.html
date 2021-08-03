@@ -1,0 +1,22 @@
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style5.css') }}"/>
+    <title> LOL-Cheer up! </title>
+</head>
+<body>
+    <div id="main">
+        <img src="https://i.ibb.co/KwKQg5G/pngegg-1.png"
+                    width="100" height="100" style="background-color:transparent">
+        <span id="title"> LOL_cheer up ! </span>
+        <br>
+        <span>
+         {{sum_name}}님의 최근 20게임
+        </span>
+        <p id="per">{{sum_name}}님의 최근 20게임 승률은 {{win_per}}%입니다.</p>
+        {% for data in Win_data %}
+            <p> {{data}} </p>
+            <br>
+        {% endfor %}
+        <button type="button" onclick="location.href='/'" id="but1"> 메인화면으로 </button>
+    </div>
+</body>

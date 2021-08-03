@@ -1,0 +1,43 @@
+#main {
+    background-color: darkblue;
+    border-radius: 12px;
+    width: 960px;
+    margin: 0 auto;
+    padding: 24px;
+    text-align: center;
+}
+
+#main #title {
+    font-size: 120px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkgoldenrod;
+}
+
+#main p {
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+}
+
+#main #but1 {
+    width: auto;
+    border-radius: 12px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 1.1em;
+    letter-spacing: normal;
+    text-align: center;
+    height: 30px;
+}
+
+#main #but2 {
+    width: auto;
+    border-radius: 12px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 1.1em;
+    letter-spacing: normal;
+    text-align: center;
+    height: 30px;
+}

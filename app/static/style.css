@@ -1,0 +1,100 @@
+#main {
+    background-color: darkblue;
+    border-radius: 12px;
+    width: 960px;
+    margin: 0 auto;
+    padding: 24px;
+    text-align: center;
+}
+
+#main span {
+    font-size: 120px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkgoldenrod;
+}
+
+#main p {
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+}
+
+#main #name {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    letter-spacing: normal;
+    text-align: center;
+    height: 60px;
+}
+
+#main #but1 {
+    width: auto;
+    border-radius: 12px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 1.1em;
+    letter-spacing: normal;
+    text-align: center;
+    height: 30px;
+}
+
+#main #nickname1 {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    letter-spacing: normal;
+    text-align: center;
+    height: 60px;
+}
+
+#main #but2 {
+    width: auto;
+    border-radius: 12px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 1.1em;
+    letter-spacing: normal;
+    text-align: center;
+    height: 30px;
+}
+
+#main #nickname2 {
+    width: 49%;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    letter-spacing: normal;
+    text-align: center;
+    height: 60px;
+}
+
+#main #comment {
+    width: 49%;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    font-size: 1.1em;
+    letter-spacing: normal;
+    text-align: center;
+    height: 60px;
+}
+
+#main #but3 {
+    width: auto;
+    border-radius: 12px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 1.1em;
+    letter-spacing: normal;
+    text-align: center;
+    height: 30px;
+}
+
+#main #repl {
+    font-size: 16px;
+    font-weight: normal;
+    color: red;
+}
